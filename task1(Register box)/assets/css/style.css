@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+body{
+    background-image: url(../img/background.jfif);
+    background-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    color: white;
+    font-style: initial;
+    text-decoration: none;
+    
+}
+.header .logo{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.header .logo a{
+    font-size: 28px;
+}
+.header .navbar{
+    padding-top: 20px;
+    padding-right: 50px;
+}
+.header .navbar i{
+    font-size: 28px;
+}
+.header .navbar a{
+    padding-right: 10px;
+}
+#main .row .col-6 .text{
+    padding-left: 100px;
+    padding-top: 200px;
+}
+#main .row .col-6 .text h1{
+    color: white;
+    font-size: 68px;
+    padding-bottom: 10px;
+}
+#main .row .col-6 .text span{
+    color: white;
+}
+#main .row .col-6 .text button{
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    border-radius: 25px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+}
+#main .row .col-6 .text button:active{
+    color: black;
+    background-color: white;
+}
+#main .row .col-6 .info{
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin-top: 130px;
+    margin-left: 200px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 365px;
+}
+#main .row .col-6 .info .name{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#main .row .col-6 .info .email{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#main .row .col-6 .info .phone{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#main .row .col-6 .info select{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    color: rgb(119, 119, 119);
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#main .row .col-6 .info .check{
+    cursor: pointer;
+}
+#main .row .col-6 .info span{
+    font-size: 10px;
+    color: rgb(119, 119, 119);
+}
+#main .row .col-6 .info a{
+    color: rgb(119, 119, 119);
+}
+#main .row .col-6 .info .get{
+    border-radius: 25px;
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+#main .row .col-6 .info .get:active{
+    color: black;
+    background-color: white;
+}
